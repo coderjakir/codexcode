@@ -1,0 +1,40 @@
+ul{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+}
+ul li:hover .web-drp{
+display: block;
+}
+ul li {
+list-style-type: none;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    padding: 12px 16px;
+    text-transform: capitalize;
+    display: inline-block;
+    color: #fff;
+}
+ul li .web-drp{
+    background: #f9f9f9;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+    display: none;
+    position: absolute ;
+    min-width: 200px;
+    max-width: 300px;
+    overflow: hidden;
+}
+ul li .web-drp a{
+    display: block;
+    color: rgb(0, 0, 0);
+}
+ul li a:hover{
+background: rgb(0, 238, 255);
+color: #000;
+}
+ul li .web-drp a:hover{
+background: red;
+color: #fff;}
